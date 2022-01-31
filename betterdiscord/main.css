@@ -145,6 +145,7 @@
 }
 :root .sprite-2lxwfc {
   filter: var(--colored-emoji) !important;
+  background: url("https://cdn.discordapp.com/attachments/542030029861814284/806284153485000764/Pepe.png");
 }
 :root #emoji-picker-tab .contents-3ca1mk,
 :root #sticker-picker-tab .contents-3ca1mk,
@@ -1909,8 +1910,8 @@
   z-index: unset;
 }
 :root .panels-3wFtMD > .container-YkUktl .avatarWrapper-1B9FTW[aria-expanded=true] {
-  position: absolute;
-  left: 90px;
+  position: fixed;
+  left: 162px;
   bottom: 160px;
   margin: 0;
   z-index: 1005;
@@ -1939,11 +1940,11 @@
   opacity: 0.8;
 }
 :root .panels-3wFtMD > .container-YkUktl .avatarWrapper-1B9FTW[aria-expanded=true] + .nameTag-sc-gpq {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   bottom: 115px;
-  left: 50px;
+  left: 120px;
   width: 145px;
   z-index: 10005;
   margin: 0;
